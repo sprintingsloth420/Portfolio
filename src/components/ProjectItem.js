@@ -19,20 +19,18 @@ export default function ProjectItem({item}) {
         <Typography gutterBottom variant="h5" component="div">
           {item.name}
         </Typography>
+        <Button variant="outlined" >{item.tag}</Button>
+        <Button variant="outlined" >{item.tag2}</Button>
+        <p></p>
         <Typography variant="body1" color="text.secondary">
           {item.description}
         </Typography>
-        <Button>{item.tag}</Button>
+        <p></p>
+        <a target="_blank" href={item.url}>View Project Details</a>
       </CardContent>
       <CardActions>
         {/* <Button size="small">Learn More</Button> */}
-        <Link
-            href={item.url}
-            component="button"
-            variant="body2"
-          >
-            See Project
-          </Link>
+        
       </CardActions>
     </Card>
 

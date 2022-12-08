@@ -1,33 +1,37 @@
 [
     {
       "name": "Coffee Vending Machine",
-      "description": "Understanding the user journey as the first step to improving user experience.",
+      "description": "Understanding different user journeys by creating personas and storyboard as the first step to improving user experience.",
       "tag":"User personas",
-      "image": "images/starry.jpg",
+      "tag2":"Understanding",
+      "image": "images/storyboard.jpg",
       "url":"https://sprintingsloth420.github.io/CS1300_Personas/"
     },
 
     {
         "name": "HENG Thai Rotisserie",
-        "description": "、。。。。",
+        "description": "Experimenting ways to improve user experience by identifying existing problems and enhancing visual organization.",
         "tag":"Responsive webpage",
-        "image": "images/starry.jpg",
-        "url":"https://sprintingsloth420.github.io/CS1300_redesign/"
+        "tag2":"Experimenting",
+        "image": "images/heng.jpg",
+        "url":"https://sprintingsloth420.github.io/CS1300_ResponsiveRedesign/"
     },
 
     {
         "name": "Circular",
-        "description": "。。 ",
+        "description": "Analyzing peer and user feedback throughout the iterative design process to match design goals and expectations with actual user experiences.",
         "tag":"Iterative design process",
-        "image": "images/starry.jpg",
+        "tag2":"Analyzing",
+        "image": "images/circular.jpg",
         "url":"https://vegananteater125.github.io/iterative-design/"
     },
 
     {
         "name": "Sloth's Gallery",
-        "description": "/... ",
+        "description": "Inplementing visual designs to user-friendly web pages.",
         "tag":"Web development",
-        "image": "images/starry.jpg",
+        "tag2":"Implementing",
+        "image": "images/gallery.jpg",
         "url":"https://sprintingsloth420.github.io/CS1300_Development/"
     }
 ]
