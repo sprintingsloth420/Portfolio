@@ -1,29 +1,33 @@
 [
     {
       "name": "Coffee Vending Machine",
-      "description": "Understanding the user journey of coffee vending machines on campus",
+      "description": "Understanding the user journey as the first step to improving user experience.",
       "tag":"User personas",
-      "image": "images/starry.jpg"
+      "image": "images/starry.jpg",
+      "url":"https://sprintingsloth420.github.io/CS1300_Personas/"
     },
 
     {
         "name": "HENG Thai Rotisserie",
-        "description": "Understanding ",
+        "description": "、。。。。",
         "tag":"Responsive webpage",
-        "image": "images/starry.jpg"
+        "image": "images/starry.jpg",
+        "url":"https://sprintingsloth420.github.io/CS1300_redesign/"
     },
 
     {
         "name": "Circular",
-        "description": "Understanding ",
+        "description": "。。 ",
         "tag":"Iterative design process",
-        "image": "images/starry.jpg"
+        "image": "images/starry.jpg",
+        "url":"https://vegananteater125.github.io/iterative-design/"
     },
 
     {
-        "name": "SprintingSloth's Gallery",
-        "description": "Understanding ",
+        "name": "Sloth's Gallery",
+        "description": "/... ",
         "tag":"Web development",
-        "image": "images/starry.jpg"
+        "image": "images/starry.jpg",
+        "url":"https://sprintingsloth420.github.io/CS1300_Development/"
     }
 ]

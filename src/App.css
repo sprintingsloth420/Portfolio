@@ -34,16 +34,38 @@
   margin: 1rem;
 }
 
-.body{
-  background-color: pink;
+/* .body{
   height:100vh;
-}
+} */
 .intro{
   background-color: green;
-  height: 50rem;
+  height: 45rem;
   display: flex;
   align-items: center;
 }
+
+.body h2{
+  margin:3rem;
+}
+
+.projects{
+  /* background-color: pink; */
+  margin-left:10%;
+  margin-right:10%;
+  margin-bottom:5rem;
+  display:grid;
+  justify-items: center;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap:3rem;
+}
+
+.footer{
+  background-color: lightgrey;
+  height: 3rem;
+  text-align: right;
+}
+
 
 .App-link {
   color: #61dafb;
