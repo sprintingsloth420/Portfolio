@@ -1,0 +1,29 @@
+[
+    {
+      "name": "Coffee Vending Machine",
+      "description": "Understanding the user journey of coffee vending machines on campus",
+      "tag":"User personas",
+      "image": "images/starry.jpg"
+    },
+
+    {
+        "name": "HENG Thai Rotisserie",
+        "description": "Understanding ",
+        "tag":"Responsive webpage",
+        "image": "images/starry.jpg"
+    },
+
+    {
+        "name": "Circular",
+        "description": "Understanding ",
+        "tag":"Iterative design process",
+        "image": "images/starry.jpg"
+    },
+
+    {
+        "name": "SprintingSloth's Gallery",
+        "description": "Understanding ",
+        "tag":"Web development",
+        "image": "images/starry.jpg"
+    }
+]
