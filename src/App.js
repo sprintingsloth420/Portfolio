@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import ProjectItem from './components/ProjectItem.js';
 import projectData from './assets/project-data.json';
@@ -18,7 +17,7 @@ function App() {
       </header>
       <div className='body'>
         <div className='intro'>
-          <p>Welcome! <br/>
+          <p>Welcome!! <br/>
           I am SprintingSloth, a coming-to-be UI/UX designer at Brown university. <br/><br/>
           My goal as a designer is to improve user experience through both logic and visual oragnizations.<br/>
           The following projects showcase this process of <b>understanding</b> the users,  <b>experimenting</b> different design alternatives,  <b>analyzing</b> user and peer feedback, and evetually <b>implementing</b> design concepts to tangible products.
