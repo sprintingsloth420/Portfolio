@@ -25,6 +25,12 @@
   font-size: 2rem;
 }
 
+.navbar-title a{
+  color:black;
+  text-decoration: none;
+}
+
+
 
 .intro{
   border-style: solid;
@@ -46,7 +52,7 @@
   margin:5rem 3rem 3rem 3rem;
 }
 
-.projects{
+#projects{
   /* background-color: pink; */
   margin-left:10%;
   margin-right:10%;

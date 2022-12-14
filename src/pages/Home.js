@@ -19,7 +19,7 @@ function Home() {
           </p>
         </div>
         <h1 className='project_title'>Projects</h1>
-        <div className='projects'>
+        <div id='projects'>
          <div><ProjectItem item={projectData[0]}/></div>
           <div><ProjectItem item={projectData[1]}/></div>
           <div><ProjectItem item={projectData[2]}/></div>
