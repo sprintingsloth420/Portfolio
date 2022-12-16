@@ -1,0 +1,110 @@
+.Project {
+    font-family:"Open Sans","Helvetica",sans-serif;
+  }
+
+  .Project_intro{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10rem;
+    height: 25rem;
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    background-color: #F2F3F5 ;
+  }
+
+  .Project_content{
+    padding-top:3rem;
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+  }
+
+  .section_title{
+    font-size: 2.5rem;
+    line-height: 5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase; 
+  }
+
+  .section_subtitle{
+    font-size: 1.8rem;
+    line-height: 2rem;
+    color: #4682B4;
+  }
+  .persona_sketch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+  }
+  .persona_sketch img{
+    width: calc(50% - 1.5rem);
+  }
+
+
+  .persona_interview{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+  }
+
+  .persona_interview div{
+    width: calc(50% - 1.5rem);
+  }
+
+  #persona_storyboard{
+    width: 90%;
+    display: block;
+    margin: auto;
+  }
+
+  .responsive_half{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 4rem;
+  }
+  .responsive_half div{
+    width: calc(50% - 2rem);
+  }
+  .responsive_problem{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .responsive_wireframe{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+  }
+
+  .responsive_wireframe img{
+    width: 50%;
+  }
+
+  .responsive_img{
+    width:70%;
+    margin: auto;
+  display: block;
+  }
+
+  .responsive_hifi{
+    width:90%;
+    margin: auto;
+  display: block;
+  }
+
+  .responsive_url{
+    color:black;
+    text-decoration: underline;
+    transition: 0.3s;
+  }
+
+  .responsive_url:hover{
+    color:#4682B4;
+  }

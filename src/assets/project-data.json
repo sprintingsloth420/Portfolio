@@ -5,7 +5,7 @@
       "tag":"User personas",
       "tag2":"Understanding",
       "image": "images/storyboard.jpg",
-      "url":"https://sprintingsloth420.github.io/CS1300_Personas/"
+      "url":"/CS1300_Portfolio/persona"
     },
 
     {
@@ -14,7 +14,7 @@
         "tag":"Responsive webpage",
         "tag2":"Experimenting",
         "image": "images/heng.jpg",
-        "url":"https://sprintingsloth420.github.io/CS1300_ResponsiveRedesign/"
+        "url":"/CS1300_Portfolio/responsive"
     },
 
     {
@@ -23,7 +23,7 @@
         "tag":"Iterative design process",
         "tag2":"Analyzing",
         "image": "images/circular.jpg",
-        "url":"https://vegananteater125.github.io/iterative-design/"
+        "url":"/CS1300_Portfolio/iterative"
     },
 
     {
@@ -32,6 +32,6 @@
         "tag":"Web development",
         "tag2":"Implementing",
         "image": "images/gallery.jpg",
-        "url":"https://sprintingsloth420.github.io/CS1300_Development/"
+        "url":"/CS1300_Portfolio/development"
     }
 ]

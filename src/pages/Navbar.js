@@ -1,13 +1,14 @@
 import React from 'react';
-import "./Home.css";
+import "./HomeNav.css";
 
 function Navbar() {
     return (
         <header className="navbar">
-          <div className="navbar-title"><a href="/">SprintingSloth</a></div>
+          <div className="navbar-title"><a href="/CS1300_Portfolio">SprintingSloth</a></div>
           <div className="navbar-menu">
-            <div className="navbar-item"><a href="/about">About</a></div>
-            <div className="navbar-item"><a href="#projects"></a></div>
+            <a href="/CS1300_Portfolio">Projects</a>
+            <a href="/CS1300_Portfolio/art">Art</a>
+            <a href="/CS1300_Portfolio/about">About</a>
           </div>
         </header>
 
