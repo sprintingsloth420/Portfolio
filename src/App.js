@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
+import { HashRouter as Router,Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home.js';
 import Navbar from './pages/Navbar.js';
 import About from './pages/About.js';
@@ -24,7 +24,6 @@ render() {
           <Route exact path='/CS1300_Portfolio/responsive' element={< Responsive />}></Route>
           <Route exact path='/CS1300_Portfolio/iterative' element={< Iterative />}></Route>
           <Route exact path='/CS1300_Portfolio/development' element={< Development />}></Route>
-          {/* <Route exact path='/contact' element={< Contact />}></Route> */}
       </Routes>
 		</div>
 	</Router>
