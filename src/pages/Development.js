@@ -59,11 +59,9 @@ function Development() {
          <div className='Project_takeaways'>
             <div className='section_title'>Takeaways</div>
             <ul style={{lineHeight:'2.8rem'}}>
-                    <li>I learned about the workflow of the iterative design process, including sketching ideas, creating low-fidelity and high-fidelity prototypes, collecting peer feedback, revising the design, and finally conducting user testings and further revising the design.</li>
-                    <li>I gained experience in working in a design team and learned about how to brainstorm and then gather design ideas, how to express my own ideas while understanding others, how to distribute tasks, etc. Communication is the key!</li>
-                    <li>Since my work focused on analyzing the feedback, it is interesting seeing how users' actual interactions with our prototype differed from our design goals and expectations. </li>
-                    <li>Never assume that there is a "right" way of using a design product - always center around the users' experience!</li>
-                    <li>(We were so excited when we got the email from the start-up saying that our design was forwarded to the product design team! But it is sad that we never heard back since... ;( )</li>
+                    <li>This is my first fully functional interactive webpage! </li>
+                   <li>I gained experience with webpage development tools, including JavaScript, React, and the Material UI library. The concepts of props and state are particularly useful and should be applicable to different projects in the future.</li>
+                   <li>(Selecting artworks to display took me a while, but I enjoy looking at something aesthetically pleasing and functional built by myself :P )</li>
                 </ul>
                 <br/><br/><br/><br/>
          </div>

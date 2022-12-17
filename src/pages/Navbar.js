@@ -6,7 +6,7 @@ function Navbar() {
         <header className="navbar">
           <div className="navbar-title"><a href="/CS1300_Portfolio">SprintingSloth</a></div>
           <div className="navbar-menu">
-            <a href="/">Projects</a>
+            <a href="/CS1300_Portfolio">Projects</a>
             <a href="#/art">Art</a>
             {/* <a href="/CS1300_Portfolio/about">About</a> */}
           </div>

@@ -13,6 +13,7 @@ function Persona() {
         </div>
 
         <div className='Project_content'>
+
         <div className='Project_context'>
             <div className='section_title'>Context & Aim</div>
                 <p>In this project, I conducted user research on the coffee vending machine located at the Brown University Rockefeller Library. I observed real users' interactions with this selected interface, created relevant interview questions, and conducted interview with some of the users about their experiences. Based on the data collected, I then created two user personas with the four-quadrant empathy maps as well as a storyboard to depict the user journey.</p>
