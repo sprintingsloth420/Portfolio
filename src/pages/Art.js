@@ -1,11 +1,12 @@
 import React from 'react';
+import './HomeNav.css';
 
 
 function Art() {
   return (
-    <div className="Art ">
+    <div className="Art">
   
-       ART
+       I DO SOME ART :)<br/><br/> COMING SOON...
 
     </div>
   );

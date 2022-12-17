@@ -4,17 +4,21 @@ import './Project.css';
 function Responsive() {
   return (
     <div className="Project ">
-  
+        <div className='back_button'>
+           <a href='/CS1300_Portfolio'><button> &lt;  Back to Projects</button><br/><br/></a> 
+        </div>
         <div className='Project_intro'>
           <p style={{fontSize:'4rem',display:'inline'}}> HENG Thai Rotisserie  <br/><br/> </p>
-          <p style={{color:'#4682B4',display:'inline'}}><b>Experimenting </b></p> ways to improve user experience by identifying existing problems and enhancing visual organization.
+          <p style={{color:'#4682B4',display:'inline'}}><b>Experimenting </b></p> ways to improve a local restaurant's webpage by identifying current problems and enhancing visual and logical organization.
+            
         </div>
 
         <div className='Project_content'>
         <div className='Project_context'>
             <div className='section_title'>Context & Aim</div>
-                 <p>In this project, I redesigned thehome webpage of Heng Thai & Rotisserie, a popular (and personal favorite!) Thai restaurant on college hill. By evaluating the webpage against the following criteria of usability, learnability, and memorability as well as with <a className="responsive_url" href="https://wave.webaim.org/">WebAIM WAVE</a>, a web accessibility evaluation tool, I was able to identify existing problems with the webpage. </p>
+                 <p>In this project, I redesigned the home webpage of Heng Thai & Rotisserie, a popular (and personal favorite!) Thai restaurant on college hill. By evaluating the webpage against the following criteria of usability, learnability, and memorability as well as with <a className="responsive_url" href="https://wave.webaim.org/">WebAIM WAVE</a>, a web accessibility evaluation tool, I was able to identify existing problems with the webpage. </p>
                  <p>In response to these problems, I redesigned the webpage with lo-fi prototypes, high-fi prototypes, and a visual design style guide, and finally implemented the redesign into a responsive webpage with suitable layouts for the varying mobile, tablet, and desktop screen sizes.</p>
+                <p>Through this project, I aim to focus on reorganizing the existing webpage to present information in a more visually and logically cohesive way. I believe that clarity in structure is the most important element for a page conveying a large amount of information for the users to easily navigate and hence improve <b>user experience</b>.</p>
             </div>
 
          <div className='Project_process'>
@@ -70,7 +74,7 @@ function Responsive() {
             <br/>
 
             <div className='section_subtitle'>STEP 2: Prototyping (Low-Fi)</div>
-               <p>I created wireframes with Balsamiq.</p>
+               <p>I created wireframes using Balsamiq as the low fidelity prototypes for logical oragnization.</p>
                <b>Desktop version:</b><br/>
                <div className='responsive_wireframe'>
                     <img src={process.env.PUBLIC_URL + "/" + "images/lowfi1.jpeg"}></img>
@@ -89,7 +93,7 @@ function Responsive() {
         <br/>
 
     <div className='section_subtitle'>STEP 4: Prototyping (Hi-Fi)</div>
-    <p>I created high-fi prototypes with Figma.</p>
+    <p>I created a mockup website using Figma as the high fidelity prototypes for visual oragnization.</p>
         <b>Desktop version:</b><br/>
         <img className='responsive_hifi' src={process.env.PUBLIC_URL + "/" + "images/highweb.jpeg"}></img><br/>
         <b>Tablet version:</b><br/>
@@ -106,9 +110,18 @@ function Responsive() {
 
          <div className='Project_takeaways'>
             <div className='section_title'>Takeaways</div>
-    
+            <ul style={{lineHeight:'2.8rem'}}>
+                    <li>I learned about the workflow of redesigning a simple website: identifying problems, experimenting with low-fi and high-fi prototypes, and then creating the webpage.</li>
+                    <li>I gained familiarity with a variety of design tools: Balsamiq, Figma, and responsive HTML elements such as flexbox.</li>
+                    <li>I discovered my expertise as a designer - I usually pay extra attention to the "flow" of a website, and I ask questions like "does it have a smooth overall logical flow" and "does this part of the content belong here". I hence focus on organizing information in a logical way, with visual elements to reinforce the structure.</li>
+                    <li>(It is my first time hand-coding a complete website. The experience is invaluable, but the struggle with flexboxes [AHHH...] and just HTML in general is TOO real ;) )</li>
+                </ul>
+                <br/><br/><br/><br/>
          </div>
         </div>
+
+        <div className='footer'> SprintingSloth 2022<br/>Hand-coded with &#9829;</div>
+
     </div>
   );
 }

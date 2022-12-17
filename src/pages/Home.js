@@ -13,8 +13,8 @@ function Home() {
 
         <div className='intro'>
           <p style={{fontSize:'4rem',display:'inline'}}>Hi, I am SprintingSloth. <br/><br/> </p>
-          An emerging UI/UX designer at Brown university aiming to improve user experience through both <p style={{color:'#4682B4',display:'inline'}}><b>logical</b></p> and <p style={{color:'#4682B4',display:'inline'}}><b>visual</b></p> oragnizations. <br/><br/>
-          The following projects showcase this process of <b>understanding</b> the users,  <b>experimenting</b> different design alternatives,  <b>analyzing</b> user and peer feedback, and evetually <b>implementing</b> design concepts to tangible products.
+          An emerging UI/UX designer at Brown university aiming to improve <b> user experience</b>  through both <p style={{color:'#4682B4',display:'inline'}}><b>logical</b></p> and <p style={{color:'#4682B4',display:'inline'}}><b>visual</b></p> oragnizations. <br/>
+          <p>This portfolio records my journey of becoming a designer by showcasing this process of <b>understanding</b> the users,  <b>experimenting</b> with different design alternatives,  <b>analyzing</b> user and peer feedback, and eventually <b>implementing</b> design concepts into functional webpages.</p>
           
         </div>
         <h1 className='project_title'>Projects</h1>
@@ -30,7 +30,7 @@ function Home() {
           </div>
         </div>
 
-        <div className='footer'> '</div>
+        <div className='footer'> SprintingSloth 2022<br/>Hand-coded with &#9829;</div>
 
     </div>
   );

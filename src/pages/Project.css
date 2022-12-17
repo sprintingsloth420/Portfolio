@@ -2,10 +2,28 @@
     font-family:"Open Sans","Helvetica",sans-serif;
   }
 
+.back_button{
+    background-color: #F2F3F5 ;
+    padding-left: 15%;
+}
+.back_button button{
+    background-color: #F2F3F5 ;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4682B4;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    font-size: 1.3rem;
+    color:#4682B4;
+    transition:0.3s;
+}
+.back_button button:hover{
+    transform: scale(1.05);
+}
   .Project_intro{
     padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 10rem;
+    padding-right: 40%;
+    padding-top: 9rem;
     height: 25rem;
     text-align: left;
     font-size: 1.5rem;
@@ -108,3 +126,203 @@
   .responsive_url:hover{
     color:#4682B4;
   }
+
+ .iframe{
+    width: 90%;
+    height: 80vh;
+    display: block;
+    margin: auto;
+  }
+
+
+  .figma_link{
+    color: #4682B4;
+
+  }
+
+  #critiques {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .critique-section {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 16px;
+    padding: 3rem;
+    gap: 1rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  
+  }
+  
+  .critique-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .critique-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .critique-problems {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    gap: 1em;
+    margin-right: 1rem;
+  }
+  
+  .critique-solutions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1rem;
+    width: 50%;
+    gap: 1em;
+  }
+  
+  .critique-problem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(199, 214, 255, 1);
+    border-radius: 12px;
+  
+  }
+  
+  
+  .critique-solution {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #FFF5C2;
+    border-radius: 12px;
+  }
+  
+  .critique-problem p {
+    text-align: start;
+    margin: 1em;
+}
+  
+  .critique-solution p {
+    text-align: start;
+    margin: 1em;
+  }
+
+  .subtitle{
+    margin:0
+  }
+
+  .subtasks {
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+  }
+  
+  .subtask {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 16px;
+    padding: 2em;
+    gap: 2rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .subtask-title .subtitle {
+    text-align: center;
+  }
+  
+  .subtask-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    /* background-color: rgba(199, 214, 255, 1); */
+    border-radius: 12px;
+  }
+  
+  .subtask-description p {
+    text-align: start;
+    margin: 1em;
+    font-size: 1em;
+  }
+  
+  .subtask-expected {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    /* background-color: #FFF5C2; */
+    border-radius: 12px;
+  }
+  
+  .subtask-expected p {
+    text-align: start;
+    margin: 1em;
+    font-size: 1em;
+  }
+  
+  .subtask-results {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+  }
+  
+  .subtask-result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.33%;
+    margin: 1em;
+    border-radius: 12px;
+  }
+  
+  .subtask-result b {
+    margin-top: 1em;
+  }
+  
+  .subtask-result p {
+    margin: 1em;
+  }
+  
+  .subtask-result-a {
+    background-color: #FFF5C2;
+  }
+  
+  .subtask-result-b {
+    background-color: #FFD7D7;
+  }
+  
+  .subtask-result-c {
+    background-color: rgba(199, 214, 255, 1);
+  }
+
+  .gifs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gif img{
+  width: 1000px;
+  }
+
+  .gif p{
+    margin: 0;
+  }
+
+  .gif a{
+    color:#4682B4;
+}
+
+#react{
+    color:black
+}
+#react:hover{
+    color:#4682B4
+}

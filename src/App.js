@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter as Router,Routes, Route, Link } from 'react-router-dom';
+import { HashRouter,Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home.js';
 import Navbar from './pages/Navbar.js';
 import About from './pages/About.js';
@@ -13,20 +13,20 @@ import Development from './pages/Development.js';
 class App extends Component {
 render() {
 	return (
-	<Router>
-		<div className="App">
+    <div className="App">
+	<HashRouter>
       <Navbar/>
       <Routes>
-          <Route exact path='/CS1300_Portfolio' element={< Home />}></Route>
-          <Route exact path='/CS1300_Portfolio/about' element={< About />}></Route>
-          <Route exact path='/CS1300_Portfolio/art' element={< Art />}></Route>
-          <Route exact path='/CS1300_Portfolio/persona' element={< Persona />}></Route>
-          <Route exact path='/CS1300_Portfolio/responsive' element={< Responsive />}></Route>
-          <Route exact path='/CS1300_Portfolio/iterative' element={< Iterative />}></Route>
-          <Route exact path='/CS1300_Portfolio/development' element={< Development />}></Route>
+          <Route exact path='/' element={< Home />}></Route>
+          {/* <Route exact path='/CS1300_Portfolio/about' element={< About />}></Route> */}
+          <Route exact path='/art' element={< Art />}></Route>
+          <Route exact path='/persona' element={< Persona />}></Route>
+          <Route exact path='/responsive' element={< Responsive />}></Route>
+          <Route exact path='/iterative' element={< Iterative />}></Route>
+          <Route exact path='/development' element={< Development />}></Route>
       </Routes>
-		</div>
-	</Router>
+	</HashRouter>
+  </div>
 );
 }
 }

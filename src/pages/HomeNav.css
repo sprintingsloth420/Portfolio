@@ -137,7 +137,7 @@
 .projectItem img{
   height:400px;
   width: 600px;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 10px 10px 0 0;
   transition: 0.5s;
 }
@@ -175,10 +175,21 @@
   height: 3rem;
   width:calc(595px - 2rem);
 }
+.Art{
+  margin:10rem;
+  text-align: center;
+  font-size: 4rem;
+}
 .footer{
   background-color: #F2F3F5;
   height: 8rem;
   text-align: right;
+  padding-right: 15%;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  color:#4682B4;
 }
 
 

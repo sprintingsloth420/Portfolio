@@ -4,23 +4,26 @@ import './Project.css';
 function Persona() {
   return (
     <div className="Project">
-  
+        <div className='back_button'>
+           <a href='/CS1300_Portfolio'><button> &lt;  Back to Projects</button><br/><br/></a> 
+        </div>
         <div className='Project_intro'>
           <p style={{fontSize:'4rem',display:'inline'}}> Coffee Vending Machine <br/><br/> </p>
-          <p style={{color:'#4682B4',display:'inline'}}><b>Understanding </b></p>different user journeys by creating personas and storyboard as the first step to improving user experience. 
+          <p style={{color:'#4682B4',display:'inline'}}><b>Understanding </b></p> different user journeys by creating personas and a storyboard for the offee vending machine located at a Brown library.
         </div>
 
         <div className='Project_content'>
         <div className='Project_context'>
             <div className='section_title'>Context & Aim</div>
-                <p>In this project, I conducted contextual inquiry by observing and interviewing real users while they were interacting with a selected interface. Based on the user data collected, I constructed two user personas with the four-quadrant empathy maps as well as a storyboard to depict the user journey.</p>
+                <p>In this project, I conducted user research on the coffee vending machine located at the Brown University Rockefeller Library. I observed real users' interactions with this selected interface, created relevant interview questions, and conducted interview with some of the users about their experiences. Based on the data collected, I then created two user personas with the four-quadrant empathy maps as well as a storyboard to depict the user journey.</p>
+                <p>Through this project, I aim to really step into a user's shoes to emphasize with the users. I believe that a deep understanding of the user journey is the crucial first step in identifying design issues, tackling these issues, and improving <b>user experience</b>.</p>
          </div>
 
          <div className='Project_process'>
             <div className='section_title'>Process</div>
 
             <div className='section_subtitle'>STEP 1: Understanding the interface</div>
-            <p>My selected interface is from the coffee vending machine with an interactive digital screen that is located at the Brown University Rockefeller Library. This interface guides the user to purchase a selection of drinks (e.g. coffee, hot chocolate, etc.) from an automatic vending machine that does not require the labor of a barista and operates 24/7. </p>
+            <p>The coffee vending machine has an interactive digital screen to guide the user to purchase a selection of drinks (e.g. coffee, hot chocolate, etc.). It is an automatic vending machine that does not require the labor of a barista and operates 24/7. </p>
             <p>Here is a sketch of the interface:</p>
             <div className= 'persona_sketch'>
             <img src={process.env.PUBLIC_URL + "/" + "images/machine_sketch.png"}></img>
@@ -141,9 +144,18 @@ function Persona() {
 
          <div className='Project_takeaways'>
             <div className='section_title'>Takeaways</div>
-    
+                <ul style={{lineHeight:'2.8rem'}}>
+                    <li>This is my first taste of user experience research. Important first step!</li>
+                    <li>Even when the users are interacting with the exact same interface, there are very different ways of interaction and thoughts going on in their minds. Since users have different interactions and experiences, it is very important to understand each group and make proper accommodations to the design.</li>
+                    <li>Although this project focuses on understanding the user journey, I already identified several affordance problems with the interface that I failed to notice when I personally interacted with the interface for the first time - just another example of how important it is to step into different users' shoes to improve a design.</li>
+                    <li>For the future projects, trying to understand the users should always be the first step.</li>
+                    <li>(Standing right next to the machine and staring at people when they were waiting for their coffee while pretending that I was not staring was fun and challenging XD)</li>
+                </ul>
+                <br/><br/><br/><br/>
          </div>
         </div>
+
+        <div className='footer'> SprintingSloth 2022<br/>Hand-coded with &#9829;</div>
 
 </div>
   );

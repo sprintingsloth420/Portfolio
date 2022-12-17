@@ -1,37 +1,37 @@
 [
     {
       "name": "Coffee Vending Machine",
-      "description": "Understanding different user journeys by creating personas and storyboard as the first step to improving user experience.",
+      "description": "Understanding different user journeys by creating personas and a storyboard for the offee vending machine located at a Brown library.",
       "tag":"User personas",
       "tag2":"Understanding",
       "image": "images/storyboard.jpg",
-      "url":"/CS1300_Portfolio/persona"
+      "url":"/persona"
     },
 
     {
         "name": "HENG Thai Rotisserie",
-        "description": "Experimenting ways to improve user experience by identifying existing problems and enhancing visual organization.",
+        "description": "Experimenting ways to improve a local restaurant's webpage by identifying current problems and enhancing visual and logical organization.",
         "tag":"Responsive webpage",
         "tag2":"Experimenting",
-        "image": "images/heng.jpg",
-        "url":"/CS1300_Portfolio/responsive"
+        "image": "images/heng.png",
+        "url":"/responsive"
     },
 
     {
         "name": "Circular",
-        "description": "Analyzing peer and user feedback throughout the iterative design process to match design goals and expectations with actual user experiences.",
+        "description": "Analyzing peer and user feedback on the webpage redesign prototype for a tech start-up to match design goals with actual user experiences.",
         "tag":"Iterative design process",
         "tag2":"Analyzing",
-        "image": "images/circular.jpg",
-        "url":"/CS1300_Portfolio/iterative"
+        "image": "images/circular.png",
+        "url":"/iterative"
     },
 
     {
-        "name": "Sloth's Gallery",
-        "description": "Inplementing visual designs to user-friendly web pages.",
+        "name": "Sloth's Virtual Gallery",
+        "description": "Implementing an interactive gallery webpage using components and updated data state while incorporating visual design principles.",
         "tag":"Web development",
         "tag2":"Implementing",
         "image": "images/gallery.jpg",
-        "url":"/CS1300_Portfolio/development"
+        "url":"/development"
     }
 ]
