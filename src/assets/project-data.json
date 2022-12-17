@@ -5,7 +5,7 @@
       "tag":"User personas",
       "tag2":"Understanding",
       "image": "images/storyboard.jpg",
-      "url":"/persona"
+      "url":"#/persona"
     },
 
     {
@@ -14,7 +14,7 @@
         "tag":"Responsive webpage",
         "tag2":"Experimenting",
         "image": "images/heng.png",
-        "url":"/responsive"
+        "url":"#/responsive"
     },
 
     {
@@ -23,7 +23,7 @@
         "tag":"Iterative design process",
         "tag2":"Analyzing",
         "image": "images/circular.png",
-        "url":"/iterative"
+        "url":"#/iterative"
     },
 
     {
@@ -32,6 +32,6 @@
         "tag":"Web development",
         "tag2":"Implementing",
         "image": "images/gallery.jpg",
-        "url":"/development"
+        "url":"#/development"
     }
 ]
