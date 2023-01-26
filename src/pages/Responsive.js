@@ -1,7 +1,11 @@
 import React from 'react';
 import './Project.css';
+import { useEffect } from 'react';
 
 function Responsive() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
   return (
     <div className="Project ">
         <div className='back_button'>
@@ -105,6 +109,7 @@ function Responsive() {
          <div className='Project_deliverables'>
             <div className='section_title'>deliverables</div>
             <p> Check out my redesign: <a className="responsive_url" href="https://sprintingsloth420.github.io/CS1300_redesign/"> HOME | hengpvd</a>!</p>
+            <iframe className='iframe' src={"https://sprintingsloth420.github.io/CS1300_redesign/"}></iframe>
             <br/>
         </div>
 
@@ -120,7 +125,7 @@ function Responsive() {
          </div>
         </div>
 
-        <div className='footer'> SprintingSloth 2022<br/>Hand-coded with &#9829;</div>
+        <div className='footer'> Juliana 2022<br/>Hand-coded with &#9829;</div>
 
     </div>
   );

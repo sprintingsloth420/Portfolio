@@ -1,14 +1,18 @@
 import React from 'react';
 import './Project.css';
+import { useEffect } from 'react';
 
 function Development() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div className="Project">
         <div className='back_button'>
            <a href='/CS1300_Portfolio'><button> &lt;  Back to Projects</button><br/><br/></a> 
         </div>
         <div className='Project_intro'>
-          <p style={{fontSize:'4rem',display:'inline'}}> Sloth's Virtual Gallery <br/><br/> </p>
+          <p style={{fontSize:'4rem',display:'inline'}}> JHan's Virtual Gallery <br/><br/> </p>
           <p style={{color:'#4682B4',display:'inline'}}><b>Implementing </b></p> an interactive gallery webpage using components and updated data state while incorporating visual design principles.
         </div>
 
@@ -48,7 +52,7 @@ function Development() {
          <div className='Project_deliverables'>
             <div className='section_title'>deliverables</div>
             
-            Check out my gallery: <a className="responsive_url" href={"https://sprintingsloth420.github.io/CS1300_Development/"}>Sloth's virtual gallery</a>
+            Check out my gallery: <a className="responsive_url" href={"https://sprintingsloth420.github.io/CS1300_Development/"}>JHan's virtual gallery</a>
             <br/> <br/>
             <iframe className='iframe' src={"https://sprintingsloth420.github.io/CS1300_Development/"}></iframe>
             <br/><br/>
@@ -67,7 +71,7 @@ function Development() {
          </div>
         </div>
 
-        <div className='footer'> SprintingSloth 2022<br/>Handcoded with &#9829;</div>
+        <div className='footer'> Juliana 2022<br/>Handcoded with &#9829;</div>
 
 </div>
   );

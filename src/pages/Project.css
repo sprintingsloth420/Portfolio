@@ -327,3 +327,21 @@
     color:#4682B4
 }
 
+.Art{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:5%;
+  flex-wrap: wrap;
+}
+
+.ArtText{
+  
+}
+
+.ArtImage img{
+  object-fit: cover;
+  width: 600px;
+
+}
+

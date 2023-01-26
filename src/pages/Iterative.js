@@ -1,7 +1,11 @@
 import React from 'react';
 import './Project.css';
+import { useEffect } from 'react';
 
 function Iterative() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div className="Project">
         <div className='back_button'>
@@ -711,7 +715,7 @@ function Iterative() {
          </div>
         </div>
 
-        <div className='footer'> SprintingSloth & VeganAnteater 2022<br/>Hand-coded with &#9829;</div>
+        <div className='footer'> Juliana & Shaun 2022<br/>Hand-coded with &#9829;</div>
 
     </div>
   );

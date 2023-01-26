@@ -1,7 +1,11 @@
 import React from 'react';
 import './Project.css';
+import { useEffect } from 'react';
 
 function Persona() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div className="Project">
         <div className='back_button'>
@@ -156,7 +160,7 @@ function Persona() {
          </div>
         </div>
 
-        <div className='footer'> SprintingSloth 2022<br/>Hand-coded with &#9829;</div>
+        <div className='footer'> Juliana 2022<br/>Hand-coded with &#9829;</div>
 
 </div>
   );
