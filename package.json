@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sprintingsloth420.github.io/CS1300_Portfolio",
+  "homepage": "https://sprintingsloth420.github.io/Portfolio/",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
